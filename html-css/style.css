@@ -4,14 +4,15 @@ body {
   Comic Sans MS,
   Impact, sans-serif;
   line-height: 1.3;
-  background-color: rgb(66, 84, 130);
+  background-color: rgb(101, 139, 235);
   color: black;
   padding: 15px;
 }
 .yläpalkki{
   display:flex;
   justify-content: space-between;
-  background-color: rgb(116, 26, 26);
+  align-items: center;
+  background-color: rgb(225, 166, 39);
 }
 .pääsivu-kuva{
   display: flex;
@@ -38,18 +39,16 @@ body {
   margin:0px;
   padding:5px;
 }
-.sivut {
+
+nav.sivut ul {
+  list-style:none;
   display: flex;
-  gap: 0px 50px;
-  align-items: center;
+  gap: 20px 50px;
+  margin-bottom:20px;
   margin: 0;
   padding: 20px;
 }
 
-li{
-  list-style-type: none;
-  color:rgb(247, 58, 58)
-}
 
 .tuotteet{
   display:flex;
@@ -61,7 +60,7 @@ li{
 }
 
 .tuotekuva{
-  background-color: rgb(74, 109, 97);
+  background-color: rgb(118, 235, 194);
   padding: 5px 10px;
 }
 .tuoteteksti{
@@ -72,11 +71,16 @@ li{
   display:flex;
   justify-content: center;
   align-items: center;
-  width:100%;
-  max-width:1300px;
+  width:300px;
+  max-width:100%;
   height:auto;
-  max-height: 75%;
+  object-fit: contain;
   text-align: center;
+  }
+.product-yläteksti{
+display:flex;
+text-align: center;
+
 }
 .contact-tiedot{
   display: flex;
