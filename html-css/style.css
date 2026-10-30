@@ -16,6 +16,7 @@ body {
 .pääsivu-kuva{
   display: flex;
   justify-content: center;
+  align-items: center;
   width:100%;
   max-width:1300px;
   height:auto;
@@ -69,6 +70,7 @@ li{
   flex-direction: column;
   display:flex;
   justify-content: center;
+  align-items: center;
   width:100%;
   max-width:1300px;
   height:auto;
